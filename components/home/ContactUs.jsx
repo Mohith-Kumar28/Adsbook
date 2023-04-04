@@ -23,12 +23,12 @@ const ContactUs = () => {
 
   <div className="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap  lg:px-20">
   <motion.div
-       initial={{ x:-100, opacity: 0 }}
+       initial={{ x:-100, opacity: 0 }} 
        whileInView={{ x:0,opacity: 1 }}
        viewport={{ once: true }}  
        transition={{ duration: 1.4 }} className="lg:w-2/3 md:w-1/2 bg-gray-900 rounded-lg overflow-hidden sm:mr-10 pt-44 pb-8 md:p-8 flex items-end justify-start relative">
       <iframe className="absolute inset-0" width="100%" height="600" frameBorder="0" scrolling="no" marginHeight="0" marginWidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=Adarsh%20Nagar,%20Satnampura,%20Phagwara,%20Punjab,%20India+(Adsbook-Social%20Media%20Marketing%20Enterprise)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.maps.ie/distance-area-calculator.html">measure distance on map</a></iframe>
-      <div className="bg-gray-900 -bottom-14 md:bottom-16 relative flex flex-wrap py-6 pb-10 md:pb-6 rounded shadow-md">
+      <div className="bg-gray-900 bottom-16 relative flex flex-wrap py-6 rounded shadow-md">
         <div className="lg:w-1/2 px-6">
           <h2 className="title-font font-semibold text-white tracking-widest text-xs">ADDRESS</h2>
           <p className="mt-1">Adarsh Nagar, Satnampura, Phagwara, Punjab, India</p>
